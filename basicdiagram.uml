@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="33.0">com.jqboml.invoice.Client</node>
+    <node x="166.16666666666669" y="632.0">com.jqboml.invoice.Main</node>
+    <node x="31.666666666666686" y="136.0">com.jqboml.invoice.Invoice</node>
+    <node x="130.0" y="0.0">com.jqboml.invoice.Element</node>
+    <node x="152.66666666666669" y="465.0">com.jqboml.invoice.InvoiceDatabase</node>
+    <node x="302.6666666666667" y="254.0">com.jqboml.invoice.User</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.jqboml.invoice.Invoice" target="com.jqboml.invoice.Element">
+      <point x="52.19999999999999" y="-113.5" />
+      <point x="204.36666666666667" y="163.0" />
+      <point x="196.5" y="163.0" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.InvoiceDatabase" target="com.jqboml.invoice.Invoice">
+      <point x="0.0" y="-58.5" />
+      <point x="87.0" y="113.5" />
+    </edge>
+    <edge source="com.jqboml.invoice.Main" target="com.jqboml.invoice.InvoiceDatabase">
+      <point x="-36.5" y="-25.0" />
+      <point x="202.66666666666669" y="607.0" />
+      <point x="195.91666666666669" y="607.0" />
+      <point x="-43.25" y="58.5" />
+    </edge>
+    <edge source="com.jqboml.invoice.Invoice" target="com.jqboml.invoice.Client">
+      <point x="-104.39999999999998" y="-113.5" />
+      <point x="47.76666666666671" y="163.0" />
+      <point x="27.5" y="163.0" />
+      <point x="-27.5" y="36.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.InvoiceDatabase" target="com.jqboml.invoice.User">
+      <point x="69.19999999999999" y="-58.5" />
+      <point x="308.3666666666667" y="445.0" />
+      <point x="451.1666666666667" y="445.0" />
+      <point x="49.5" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="431.5" y="357.5" />
+  <SelectedNodes>
+    <node>com.jqboml.invoice.Invoice</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

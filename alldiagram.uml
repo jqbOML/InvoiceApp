@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="204.54950600474803" y="526.0">com.jqboml.invoice.MainWindow</node>
+    <node x="178.0521697388633" y="334.0">com.jqboml.invoice.GenerateInvoiceWindow</node>
+    <node x="287.48331064097204" y="0.0">com.jqboml.invoice.Client</node>
+    <node x="0.0" y="410.0">com.jqboml.invoice.EditWindow</node>
+    <node x="180.3146697388633" y="258.0">com.jqboml.invoice.AddElementWindow</node>
+    <node x="138.00000000000003" y="410.0">com.jqboml.invoice.DisplayWindow</node>
+    <node x="298.9737484289904" y="602.0">com.jqboml.invoice.Main</node>
+    <node x="235.65831064097205" y="86.0">com.jqboml.invoice.Invoice</node>
+    <node x="171.48331064097204" y="0.0">com.jqboml.invoice.Element</node>
+    <node x="254.30831064097205" y="162.0">com.jqboml.invoice.InvoiceDatabase</node>
+    <node x="351.65831064097205" y="86.0">com.jqboml.invoice.User</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.jqboml.invoice.MainWindow" target="com.jqboml.invoice.GenerateInvoiceWindow">
+      <point x="32.18181818181819" y="-13.0" />
+      <point x="295.7313241865662" y="486.0" />
+      <point x="330.25405145929346" y="486.0" />
+      <point x="330.25405145929346" y="385.0" />
+      <point x="325.8021697388633" y="385.0" />
+      <point x="49.25" y="13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.GenerateInvoiceWindow" target="com.jqboml.invoice.MainWindow">
+      <point x="16.41666666666663" y="13.0" />
+      <point x="292.96883640552994" y="385.0" />
+      <point x="298.22727272727275" y="385.0" />
+      <point x="298.22727272727275" y="476.0" />
+      <point x="285.00405145929346" y="476.0" />
+      <point x="21.454545454545467" y="-13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.EditWindow" target="com.jqboml.invoice.MainWindow">
+      <point x="44.25" y="13.0" />
+      <point x="103.25" y="476.0" />
+      <point x="242.0949605502026" y="476.0" />
+      <point x="-21.45454545454544" y="-13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.InvoiceDatabase" target="com.jqboml.invoice.Invoice">
+      <point x="-30.599999999999966" y="-13.0" />
+      <point x="300.20831064097206" y="137.0" />
+      <point x="283.65831064097205" y="137.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.Invoice" target="com.jqboml.invoice.Client">
+      <point x="38.39999999999998" y="-13.0" />
+      <point x="322.058310640972" y="66.0" />
+      <point x="354.23331064097204" y="66.0" />
+      <point x="22.25" y="13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.Main" target="com.jqboml.invoice.InvoiceDatabase">
+      <point x="27.750000000000007" y="-13.0" />
+      <point x="363.72374842899046" y="582.0" />
+      <point x="409.9839879206815" y="582.0" />
+      <point x="409.9839879206815" y="208.0" />
+      <point x="396.3797392124005" y="208.0" />
+      <point x="65.5714285714285" y="13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.InvoiceDatabase" target="com.jqboml.invoice.User">
+      <point x="30.600000000000023" y="-13.0" />
+      <point x="361.4083106409721" y="137.0" />
+      <point x="370.15831064097205" y="137.0" />
+      <point x="-18.5" y="13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.MainWindow" target="com.jqboml.invoice.EditWindow">
+      <point x="-53.6363636363636" y="-13.0" />
+      <point x="209.91314236838443" y="506.0" />
+      <point x="14.75" y="506.0" />
+      <point x="-44.25" y="13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.EditWindow" target="com.jqboml.invoice.InvoiceDatabase">
+      <point x="0.0" y="-13.0" />
+      <point x="59.0" y="218.0" />
+      <point x="265.23688206954347" y="218.0" />
+      <point x="-65.57142857142856" y="13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.MainWindow" target="com.jqboml.invoice.DisplayWindow">
+      <point x="0.0" y="-13.0" />
+      <point x="263.549506004748" y="456.0" />
+      <point x="242.25000000000003" y="456.0" />
+      <point x="34.75" y="13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.GenerateInvoiceWindow" target="com.jqboml.invoice.InvoiceDatabase">
+      <point x="78.80000000000001" y="-13.0" />
+      <point x="355.62007575757576" y="238.0" />
+      <point x="330.80831064097197" y="238.0" />
+      <point x="-5.6843418860808015E-14" y="13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.DisplayWindow" target="com.jqboml.invoice.GenerateInvoiceWindow">
+      <point x="46.333333333333286" y="-13.0" />
+      <point x="253.83333333333331" y="385.0" />
+      <point x="227.3021697388633" y="385.0" />
+      <point x="-49.25" y="13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.GenerateInvoiceWindow" target="com.jqboml.invoice.AddElementWindow">
+      <point x="-78.80000000000004" y="-13.0" />
+      <point x="197.75216973886327" y="309.0" />
+      <point x="200.4396697388633" y="309.0" />
+      <point x="-60.375" y="13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.Invoice" target="com.jqboml.invoice.Element">
+      <point x="-19.19999999999999" y="-13.0" />
+      <point x="264.45831064097206" y="56.0" />
+      <point x="219.48331064097204" y="56.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.DisplayWindow" target="com.jqboml.invoice.InvoiceDatabase">
+      <point x="-46.33333333333337" y="-13.0" />
+      <point x="161.16666666666666" y="385.0" />
+      <point x="142.80955522971652" y="385.0" />
+      <point x="142.80955522971652" y="228.0" />
+      <point x="287.0940249266863" y="228.0" />
+      <point x="-43.71428571428572" y="13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.AddElementWindow" target="com.jqboml.invoice.GenerateInvoiceWindow">
+      <point x="60.375" y="13.0" />
+      <point x="321.1896697388633" y="309.0" />
+      <point x="315.9521697388633" y="309.0" />
+      <point x="39.39999999999998" y="-13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.Main" target="com.jqboml.invoice.MainWindow">
+      <point x="-9.25" y="-13.0" />
+      <point x="326.7237484289904" y="572.0" />
+      <point x="293.049506004748" y="572.0" />
+      <point x="29.5" y="13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.MainWindow" target="com.jqboml.invoice.InvoiceDatabase">
+      <point x="53.636363636363626" y="-13.0" />
+      <point x="317.18586964111165" y="506.0" />
+      <point x="385.5521697388633" y="506.0" />
+      <point x="385.5521697388633" y="228.0" />
+      <point x="352.66545349811486" y="228.0" />
+      <point x="21.857142857142833" y="13.0" />
+    </edge>
+    <edge source="com.jqboml.invoice.AddElementWindow" target="com.jqboml.invoice.InvoiceDatabase">
+      <point x="0.0" y="-13.0" />
+      <point x="260.8146697388633" y="238.0" />
+      <point x="308.95116778382913" y="238.0" />
+      <point x="-21.85714285714289" y="13.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="217.5" y="314.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
